@@ -1,2 +1,9 @@
 mongodb
+database:  
+  use databaseName(),
+  switch databaseName()
+  drop databaseName()
 
+collection:
+  dbs.collectionsname()
+ 
