@@ -1,9 +1,11 @@
 mongodb
 database:  
   use databaseName(),
-  switch databaseName()
+  show dbs,
   drop databaseName()
 
 collection:
-  dbs.collectionsname()
+  db.collectionsname(" "),
+  show collections,
+  drop collectionName()
  
