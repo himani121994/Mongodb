@@ -16,5 +16,11 @@ CURD
          INSERT MULTIPAL DOCUMENT AT THE TIME
         db.collectionName.insertMany({name:" ",city:" ",feature:{,,,},meter:[]},{},{})
 
+    Read:- Find(), FindOne()
+        db.collectionName.find({},{name:"himani"})
+        db.collectionName.find({},{name:1,_id:0})
+
+        db.collectionName.findOne()
+         find the first document in the collection;
 
  
