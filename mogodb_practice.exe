@@ -7,5 +7,14 @@ database:
 collection:
   db.collectionsname(" "),
   show collections,
-  drop collectionName()
+  drop collectionName(),
+
+CURD 
+    Create:- insertOne(), insertMany()
+         INSERT ONLY ONE DOCUMENT
+        db.collectionName.insertOne({name:" ",city:" ",feature:{,,,},meter:[]}),
+         INSERT MULTIPAL DOCUMENT AT THE TIME
+        db.collectionName.insertMany({name:" ",city:" ",feature:{,,,},meter:[]},{},{})
+
+
  
