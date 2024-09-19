@@ -23,4 +23,9 @@ CURD
         db.collectionName.findOne()
          find the first document in the collection;
 
+    Update:- updateOne() , updateMany()
+        db.collectionName.updateOne({model:""},{$set:{color:red}})
+        db.collectionName.updateOne({model:""},{$push:{frature:"",""}})
+        this $push will be insert the value in array;
+        
  
