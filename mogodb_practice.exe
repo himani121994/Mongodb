@@ -31,4 +31,12 @@ CURD
         this $pull will be remove the value in array;
         db.collectionName.updateMany({model:""},{$push:{frature:{$each:["","","",""]}}})
         this $each will be insert multipul value in array;
+        db.collectionName.updateOne({model:""},{$unset:{color:""}})
+        this $unset will be remove the value in array;
+        db.collectionName.updateOne({model:""},{set:{maker:""}},{$upsert:true})
+        this $upsert will be add the value if it is not exist;
+
+    Delete :- deletOne(), deleteMany()
+         db.collectionName.deleteOne({model:""});
+         db.collectionName.deleteMany({model:""});    
  
